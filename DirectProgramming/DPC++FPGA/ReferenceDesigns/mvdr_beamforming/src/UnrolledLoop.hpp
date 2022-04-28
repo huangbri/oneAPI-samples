@@ -1,5 +1,5 @@
-#ifndef __UNROLLEDLOOP_HPP__
-#define __UNROLLEDLOOP_HPP__
+#ifndef __UNROLLEDLOOP_HPP_MVDR__
+#define __UNROLLEDLOOP_HPP_MVDR__
 #pragma once
 
 #include <type_traits>
