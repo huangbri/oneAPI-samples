@@ -1,5 +1,5 @@
-#ifndef __STREAMING_QRD_HPP__
-#define __STREAMING_QRD_HPP__
+#ifndef __STREAMING_QRD_HPP_MVDR__
+#define __STREAMING_QRD_HPP_MVDR__
 
 #include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
@@ -340,4 +340,4 @@ event SubmitStreamingQRDKernel(queue& q) {
   return e;
 }
 
-#endif  // ifndef __STREAMING_QRD_HPP__
+#endif  // ifndef __STREAMING_QRD_HPP_MVDR__
